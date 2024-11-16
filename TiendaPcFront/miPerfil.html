@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>TiendaPc Adminstración</title>
+  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+  <link rel="icon" href="assets/img/computer.ico" type="image/x-icon" />
+
+  <!-- Fonts and icons -->
+  <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins.min.css" />
+  <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link rel="stylesheet" href="assets/css/demo.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar" data-background-color="dark">
+      <div class="sidebar-logo">
+        <!-- Logo Header -->
+        <div class="logo-header" data-background-color="dark">
+          <a href="dashboard.html" class="logo">
+            <img src="assets/img/logo.png" alt="navbar brand" class="navbar-brand" height="60" />
+          </a>
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="gg-menu-right"></i>
+            </button>
+            <button class="btn btn-toggle sidenav-toggler">
+              <i class="gg-menu-left"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+      <div class="sidebar-wrapper scrollbar scrollbar-inner">
+        <div class="sidebar-content">
+          <ul class="nav nav-secondary">
+            <li class="nav-section">
+              <span class="sidebar-mini-icon">
+                <i class="fa fa-ellipsis-h"></i>
+              </span>
+              <h4 class="text-section">Adminstración</h4>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#base">
+                <i class="fas fa-layer-group"></i>
+                <p>Pedidos</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="base">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="dashboard.html">
+                      <span class="sub-item">Panel Principal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="pedidos.html">
+                      <span class="sub-item">Listado Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nuevoPedido.html">
+                      <span class="sub-item">Registrar Pedido</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                <i class="fas fa-th-list"></i>
+                <p>Componentes</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="sidebarLayouts">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="componentes.html">
+                      <span class="sub-item">Listado Componentes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#forms">
+                <i class="fas fa-pen-square"></i>
+                <p>Sesión</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="forms">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="miPerfil.html">
+                      <span class="sub-item">Mi Perfil</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" role="button" onclick="cerrarSesion()">
+                      <span class="sub-item">Cerrar Sesión</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <!-- End Sidebar -->
+    <div class="main-panel">
+      <div class="main-header">
+        <div class="main-header-logo">
+
+          <div class="logo-header" data-background-color="dark">
+            <a href="dashboard.html">
+              <img src="assets/img/logo.png" alt="logo-tienda-pc">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENIDO -->
+      <div class="container">
+        <div class="container profile-container">
+          <div class="text-center mb-4">
+            <img src="https://statics.eleconomista.com.ar/2022/11/crop/637cc3e2d3338__420x280.webp" alt="Perfil"
+              class="profile-img">
+            <h2 class="mt-3">Perfil de Empleado</h2>
+          </div>
+
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre del empleado" readonly>
+            </div>
+
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido" placeholder="Apellido del empleado" readonly>
+            </div>
+
+            <div class="mb-3">
+              <label for="legajoEmp" class="form-label">Legajo</label>
+              <input type="number" class="form-control" id="legajoEmp" placeholder="Número de legajo" readonly>
+            </div>
+
+            <div class="mb-3">
+              <label for="direccion" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="direccion" placeholder="Dirección del empleado" readonly>
+            </div>
+
+            <div class="mb-3">
+              <label for="nroCalle" class="form-label">Número de Calle</label>
+              <input type="number" class="form-control" id="nroCalle" placeholder="Número de la calle" readonly>
+            </div>
+
+            <div class="mb-3">
+              <label for="documento" class="form-label">Documento</label>
+              <input type="number" class="form-control" id="documento" placeholder="Documento de identidad" readonly>
+            </div>
+
+
+            <div class="mb-3">
+              <label for="idRol" class="form-label">Rol</label>
+              <input type="text" class="form-control" id="idRol" placeholder=" Rol" readonly>
+            </div>
+
+
+
+            <div class="form-group">
+              <label for="estado">Estado</label>
+              <input type="checkbox" id="estado" disabled>
+              <span id="estado-label" style="margin-left: 8px;">Inactivo</span>
+              <!-- Texto que cambia según el estado -->
+            </div>
+        </div>
+
+
+
+
+      </div>
+
+      <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+          <nav class="pull-left">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright">
+            2024, Tienda Pc Adminstración
+          </div>
+          <div>
+            TPI PROG II
+            <a target="_blank" href="about.html">GRUPO 19</a>.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+
+  <!-- End Custom template -->
+  <!-- Core JS Files  -->
+  <script>
+    function cerrarSesion() {
+      // Aquí puedes eliminar el token de autenticación o limpiar la sesión si es necesario
+      localStorage.removeItem("legajoEmp");
+
+      // Redirige a la página de inicio de sesión
+      window.location.href = "login.html";
+    }
+  </script>
+  <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+
+  <!--jQuery Scrollbar -->
+  <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+  <!-- Chart JS -->
+  <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+  <!--jQuery Sparkline -->
+  <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+  <!--Chart Circle -->
+  <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+  <!-- Datatables -->
+  <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+  <!-- Bootstrap Notify -->
+  <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+  <!-- jQuery Vector Maps -->
+  <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+  <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+  <!-- Kaiadmin JS -->
+  <script src="assets/js/kaiadmin.min.js"></script>
+  <script>
+    WebFont.load({
+      google: { families: ["Public Sans:300,400,500,600,700"] },
+      custom: {
+        families: [
+          "Font Awesome 5 Solid",
+          "Font Awesome 5 Regular",
+          "Font Awesome 5 Brands",
+          "simple-line-icons",
+        ],
+        urls: ["assets/css/fonts.min.css"],
+      },
+      active: function () {
+        sessionStorage.fonts = true;
+      },
+    });
+
+
+    // Función para obtener los datos de un empleado por LegajoEmp y mostrarlos en el formulario
+    async function obtenerEmpleado(legajoEmp) {
+      try {
+        // URL base de tu API
+        const url = `https://localhost:7119/api/Empleado/legajoEmp?legajoEmp=${legajoEmp}`;
+
+        // Realizamos la solicitud GET a la API
+        const response = await fetch(url);
+
+        // Verificamos si la solicitud fue exitosa
+        if (!response.ok) {
+          throw new Error(`Error al obtener datos: ${response.statusText}`);
+        }
+
+        // Convertimos la respuesta en JSON
+        const empleado = await response.json();
+
+        // Llenamos los campos del formulario con los datos obtenidos
+        document.getElementById("nombre").value = empleado.nombre;
+        document.getElementById("apellido").value = empleado.apellido;
+        document.getElementById("legajoEmp").value = empleado.legajoEmp;
+        document.getElementById("direccion").value = empleado.direccion;
+        document.getElementById("nroCalle").value = empleado.nroCalle;
+        document.getElementById("documento").value = empleado.documento;
+        document.getElementById("idRol").value = empleado.rolNombre;       // Mostrar nombre del rol
+        document.getElementById("estado").checked = empleado.estado;
+        // Cambiamos el color y el texto del estado según el valor de estado
+
+        const estadoLabel = document.getElementById("estado-label");
+        if (empleado.estado) {
+          estadoLabel.textContent = "Activo";
+          estadoLabel.style.color = "green";
+        } else {
+          estadoLabel.textContent = "Inactivo";
+          estadoLabel.style.color = "red";
+        }
+
+
+      } catch (error) {
+        console.error("Error al obtener los datos del empleado:", error);
+      }
+    }
+
+    // Obtener el legajoEmp almacenado en sessionStorage y llamar a obtenerEmpleado al cargar la página
+    document.addEventListener("DOMContentLoaded", () => {
+      const legajoEmp = sessionStorage.getItem('legajoEmp');
+      if (legajoEmp) {
+        obtenerEmpleado(legajoEmp);
+      } else {
+        console.error("No se encontró legajoEmp en sessionStorage.");
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,290 @@
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.exe
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.deps.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.runtimeconfig.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.AssemblyReference.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfoInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfo.cs
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.sourcelink.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.TiendaPc.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TiendaPc.API.props
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TiendaPc.API.props
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TiendaPc.API.props
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\scopedcss\bundle\TiendaPc.API.styles.css
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.68C80EDC.Up2Date
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\refint\TiendaPc.API.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.genruntimeconfig.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\ref\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.exe
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.deps.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.runtimeconfig.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.sourcelink.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.TiendaPc.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TiendaPc.API.props
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TiendaPc.API.props
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TiendaPc.API.props
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\scopedcss\bundle\TiendaPc.API.styles.css
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.68C80EDC.Up2Date
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\refint\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.genruntimeconfig.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\ref\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.exe
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.deps.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.runtimeconfig.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.TiendaPc.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TiendaPc.API.props
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TiendaPc.API.props
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TiendaPc.API.props
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\scopedcss\bundle\TiendaPc.API.styles.css
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.68C80EDC.Up2Date
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\refint\TiendaPc.API.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.genruntimeconfig.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\ref\TiendaPc.API.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\appsettings.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.exe
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.deps.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.runtimeconfig.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.AssemblyReference.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfoInputs.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.AssemblyInfo.cs
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.csproj.CoreCompileInputs.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.TiendaPc.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TiendaPc.API.props
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TiendaPc.API.props
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TiendaPc.API.props
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\scopedcss\bundle\TiendaPc.API.styles.css
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.68C80EDC.Up2Date
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\refint\TiendaPc.API.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.pdb
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\TiendaPc.API.genruntimeconfig.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.API\obj\Debug\net8.0\ref\TiendaPc.API.dll

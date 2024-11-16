@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TXlFaPrktrIbWxz2a+EHF+3CYB4DNuhhe7y5WVB2BPo=",
+  "Source": "TiendaPc.API",
+  "BasePath": "_content/TiendaPc.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

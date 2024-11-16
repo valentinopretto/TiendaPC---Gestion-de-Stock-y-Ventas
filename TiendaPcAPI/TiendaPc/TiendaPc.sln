@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaPc.DLL", "TiendaPc.DLL\TiendaPc.DLL.csproj", "{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaPc.API", "TiendaPc.API\TiendaPc.API.csproj", "{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C5D1960-CD85-408F-8CC9-12AD1E540495}
+	EndGlobalSection
+EndGlobal

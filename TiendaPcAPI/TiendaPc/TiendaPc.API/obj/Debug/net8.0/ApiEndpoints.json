@@ -1,0 +1,573 @@
+[
+  {
+    "ContainingType": "TiendaPc.API.Controllers.BarrioController",
+    "Method": "GetBarrioByCiudad",
+    "RelativePath": "api/Barrio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCiudad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.CategoriaFiscalController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/CategoriaFiscal/GetAll-CategoriasFiscales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.CiudadController",
+    "Method": "GetCiudadesByProvincia",
+    "RelativePath": "api/Ciudad/provincia/{idprovincia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idprovincia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ClienteController",
+    "Method": "updCliente",
+    "RelativePath": "api/Cliente/actualizar-cliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "TiendaPc.DLL.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ClienteController",
+    "Method": "BajaCliente",
+    "RelativePath": "api/Cliente/Baja-Cliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ClienteController",
+    "Method": "GetClientesFiltro",
+    "RelativePath": "api/Cliente/GetAll-ClientesFiltro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ClienteController",
+    "Method": "GetById",
+    "RelativePath": "api/Cliente/GetCliente-ByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ClienteController",
+    "Method": "GetClientes",
+    "RelativePath": "api/Cliente/GetClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ClienteController",
+    "Method": "PostCliente",
+    "RelativePath": "api/Cliente/Post-Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "TiendaPc.DLL.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ComponenteController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Componente/Create-Componente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "componente",
+        "Type": "TiendaPc.DLL.Models.Componente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ComponenteController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Componente/GetAll-Componentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ComponenteController",
+    "Method": "FiltrarComponentes",
+    "RelativePath": "api/Componente/GetAllFiltro-Componentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estado",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoComponenteId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "marcaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ComponenteController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Componente/GetById-Componente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ComponenteController",
+    "Method": "LowComponenteAsync",
+    "RelativePath": "api/Componente/Low-Componente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ComponenteController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Componente/Update-Componente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "componente",
+        "Type": "TiendaPc.DLL.Models.Componente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetCantClientes",
+    "RelativePath": "api/Dashboard/GetCantClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetEstadisticasMarcas",
+    "RelativePath": "api/Dashboard/GetEstadisticasMarcas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetFactMesActual",
+    "RelativePath": "api/Dashboard/GetFacturacionDeEsteMes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetFacturacionPorMes",
+    "RelativePath": "api/Dashboard/GetFacturacionPorMes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetInformeComponentes",
+    "RelativePath": "api/Dashboard/GetInformeTipoComponentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetNroVentasMesActual",
+    "RelativePath": "api/Dashboard/GetNroVentasMesActual",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.DashboardController",
+    "Method": "GetVentasComponentes",
+    "RelativePath": "api/Dashboard/GetVentasComponentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.EmpleadoController",
+    "Method": "GetEmpleado",
+    "RelativePath": "api/Empleado/legajoEmp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "legajoEmp",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TiendaPc.DLL.Models.EmpleadoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.EmpleadoController",
+    "Method": "ValidateEmpleado",
+    "RelativePath": "api/Empleado/validate-legajo-pass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "legajoEmp",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pass",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.EspecificacionController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Especificacion/GetAll-Especificaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.FormaEntregaController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/FormaEntrega/GetAll-FormasEntrega",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.FormaPagoController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/FormaPago/GetAll-FormasPago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.MarcaController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Marca/GetAll-Marcas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "GetAllPedidos",
+    "RelativePath": "api/Pedido/get-all-pedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "GetById",
+    "RelativePath": "api/Pedido/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "GetByIdPedidoDto",
+    "RelativePath": "api/Pedido/Get-PedidoDto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "GetPedidosPCArmadas",
+    "RelativePath": "api/Pedido/get-pedidos-pcArmadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "GetPedidosFiltros",
+    "RelativePath": "api/Pedido/GetAll-DetallesPedido",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPedido",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "GetPedidosFiltros",
+    "RelativePath": "api/Pedido/GetAll-Pedidos-Fitros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaDesde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "idFormaPago",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "BajaPedido",
+    "RelativePath": "api/Pedido/LowOrder-Pedido",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "motivoCancelacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.PedidoController",
+    "Method": "PostPedido",
+    "RelativePath": "api/Pedido/Nuevo-Pedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedido",
+        "Type": "TiendaPc.DLL.Models.Pedido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.ProvinciaController",
+    "Method": "GetAllProvincias",
+    "RelativePath": "api/Provincia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.TipoComponenteController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TipoComponente/GetAll-TiposComponente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.TipoContactoController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TipoContacto/GetAll-TiposContacto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaPc.API.Controllers.TipoDocumentoController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TipoDocumento/GetAll-TiposDocumento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

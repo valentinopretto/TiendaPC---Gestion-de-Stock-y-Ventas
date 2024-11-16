@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA-PC Administración</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f5f7fa;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 600px;
+            min-height: 100vh;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            overflow: hidden;
+        }
+
+        .form-left {
+            background-color: #f0f0f5;
+            /* Gris claro personalizado */
+            color: #333;
+            /* Texto oscuro para contraste */
+            padding: 100px;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+        }
+
+        .logo {
+            border-radius: 30px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Logo de la empresa -->
+    <div>
+        <img class="logo" src="assets/img/logo.png" alt="navbar brand" height="80">
+    </div>
+
+    <!-- Contenedor del formulario de inicio de sesión centrado -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="card">
+                    <div class="form-left">
+                        <h3>Iniciar Sesión</h3>
+                        <form id="loginForm"> <!-- Añadido el id="loginForm" aquí -->
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label">Legajo</label>
+                                <input type="number" class="form-control" id="loginEmail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="loginPassword" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                        </form>
+                        <div id="message"></div> <!-- Div para mostrar mensajes -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function (event) {
+            event.preventDefault(); // Evita el envío del formulario
+
+            const legajoEmp = document.getElementById('loginEmail').value; // Captura el legajo
+            const pass = document.getElementById('loginPassword').value;    // Captura la contraseña
+
+            try {
+                const response = await fetch(`https://localhost:7119/api/Empleado/validate-legajo-pass?legajoEmp=${legajoEmp}&pass=${pass}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const messageDiv = document.getElementById('message');
+
+                if (!response.ok) {
+
+                    // Error en la conexión o en el servidor
+                    messageDiv.innerHTML = '<div class="alert alert-warning">Credenciales inválidas</div>';
+
+
+                } else {
+                    const isValid = await response.json(); // La API devuelve un booleano
+
+                    if (isValid) {
+                        // Credenciales correctas
+                        sessionStorage.setItem('legajoEmp', legajoEmp); // Guarda el legajo en sessionStorage
+                        window.location.href = 'dashboard.html'; // Redirige a la página principal
+                    } else {
+                        // Credenciales incorrectas
+                        messageDiv.innerHTML = '<div class="alert alert-danger">Credenciales incorrectas. Inténtelo de nuevo.</div>';
+                    }
+                }
+            } catch (error) {
+                console.error('Error al validar credenciales:', error);
+                document.getElementById('message').innerHTML = '<div class="alert alert-danger">Error en la conexión. Por favor, inténtelo de nuevo más tarde.</div>';
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

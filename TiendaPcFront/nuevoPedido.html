@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>TiendaPc Adminstración</title>
+  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+  <link rel="icon" href="assets/img/computer.ico" type="image/x-icon" />
+
+  <!-- Fonts and icons -->
+  <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+  <script>
+    WebFont.load({
+      google: { families: ["Public Sans:300,400,500,600,700"] },
+      custom: {
+        families: [
+          "Font Awesome 5 Solid",
+          "Font Awesome 5 Regular",
+          "Font Awesome 5 Brands",
+          "simple-line-icons",
+        ],
+        urls: ["assets/css/fonts.min.css"],
+      },
+      active: function () {
+        sessionStorage.fonts = true;
+      },
+    });
+  </script>
+
+  <style>
+    form {
+      margin: 0;
+      padding: 0;
+    }
+
+    form .form-group {
+      margin-bottom: 1rem;
+      /* Ajusta según el diseño */
+    }
+  </style>
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins.min.css" />
+  <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link rel="stylesheet" href="assets/css/demo.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar" data-background-color="dark">
+      <div class="sidebar-logo">
+        <!-- Logo Header -->
+        <div class="logo-header" data-background-color="dark">
+          <a href="dashboard.html" class="logo">
+            <img src="assets/img/logo.png" alt="navbar brand" class="navbar-brand" height="60" />
+          </a>
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="gg-menu-right"></i>
+            </button>
+            <button class="btn btn-toggle sidenav-toggler">
+              <i class="gg-menu-left"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+      <div class="sidebar-wrapper scrollbar scrollbar-inner">
+        <div class="sidebar-content">
+          <ul class="nav nav-secondary">
+            <li class="nav-section">
+              <span class="sidebar-mini-icon">
+                <i class="fa fa-ellipsis-h"></i>
+              </span>
+              <h4 class="text-section">Adminstración</h4>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#base">
+                <i class="fas fa-layer-group"></i>
+                <p>Pedidos</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="base">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="dashboard.html">
+                      <span class="sub-item">Panel Principal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="pedidos.html">
+                      <span class="sub-item">Listado Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nuevoPedido.html">
+                      <span class="sub-item">Registrar Pedido</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                <i class="fas fa-th-list"></i>
+                <p>Componentes</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="sidebarLayouts">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="componentes.html">
+                      <span class="sub-item">Listado Componentes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#forms">
+                <i class="fas fa-pen-square"></i>
+                <p>Sesión</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="forms">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="miPerfil.html">
+                      <span class="sub-item">Mi Perfil</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" role="button" onclick="cerrarSesion()">
+                      <span class="sub-item">Cerrar Sesión</span>
+                      <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+    <div class="main-panel">
+      <div class="main-header">
+        <div class="main-header-logo">
+
+          <div class="logo-header" data-background-color="dark">
+            <a href="dashboard.html">
+              <img src="assets/img/logo.png" alt="logo-tienda-pc">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENIDO -->
+      <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <div class="card mb-2">
+                <div class="card-header">
+                  <div class="card-title text-center" id="titulo-pagina">Nuevo Pedido</div>
+                </div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-6">
+                      <label class="mb-3"><b>Selecionar Cliente</b></label>
+                      <div class="form-group form-group-default">
+                        <label>Buscar Cliente</label>
+                        <input id="nombreClienteFiltro" onblur="buscarClientes()" type="text" class="form-control"
+                          placeholder="Ingrese el nombre" />
+                      </div>
+                      <div class="form-group form-group-default">
+                        <label>Selecionar</label>
+                        <select class="form-select" id="ddlClientes">
+                          <!-- clientes cargados dinamicamente -->
+                        </select>
+                      </div>
+                      <button class="btn btn-success mt-2" id="cargarNuevoCliente">
+                        <span class="btn-label">
+                          <i class="fa fa-user-plus"></i>
+                        </span>
+                        Nuevo Cliente
+                      </button>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                      <div class="form-group mb-0">
+                        <label for="ddlTipoEntrega">Tipo Entrega</label>
+                        <select class="form-select" id="ddlTipoEntrega">
+                          <!-- tipos de entrega -->
+                        </select>
+                      </div>
+                      <div class="form-group mb-0">
+                        <label for="ddlCategoriaFiscal">Categoria Fiscal</label>
+                        <select class="form-select" id="ddlCategoriaFiscal">
+                          <!-- categorias fiscales -->
+
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="ddlFormaPago">Forma de Pago</label>
+                        <select class="form-select" id="ddlFormaPago">
+                          <!-- formas de pago -->
+
+                        </select>
+                      </div>
+                    </div>
+                    <!-- DETALLES DEL PEDIDO -->
+                    <div class="col-md-10 mt-4">
+                      <div class="card">
+                        <div class="card-header">
+                          <div class="card-title">Detalle Pedido</div>
+                        </div>
+                        <div class="card-sub">
+                          <div class="row justify-content-evelyn">
+                            <div class="form-group col-md-5">
+                              <label>Selecionar Componente</label>
+                              <select class="form-select" id="ddlComponentes">
+                                <!-- cargamos los componentes de forma dinamica -->
+                              </select>
+                            </div>
+                            <div class="form-group col-md-3">
+                              <label>Tipo Componente</label>
+                              <select class="form-select" id="ddlTiposComponentes">
+                                <!-- generado dinamicamente -->
+                              </select>
+                            </div>
+                            <div class="form-group col-md-3">
+                              <label>Marca</label>
+                              <select class="form-select" id="ddlMarcas">
+                                <!-- generado dinamicamente -->
+                              </select>
+                            </div>
+                            <div class="form-group col-md-1">
+                              <label class="me-3">Añadir</label>
+                              <button type="button" class="me-4 btn btn-icon btn-round btn-success"
+                                id="btnAgregarComponente">
+                                <i class="fas fa-plus"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="table-responsive">
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Componente</th>
+                                  <th scope="col">Tipo Componente</th>
+                                  <th scope="col">Marca</th>
+                                  <th scope="col">Precio</th>
+                                  <th scope="col">Cantidad</th>
+                                  <th scope="col">Eliminar</th>
+                                </tr>
+                              </thead>
+                              <tbody id="tablaComponentes">
+                                <!-- COMPONENTES CARGADOS DINAMICAMENTE -->
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-action my-3">
+                <div class="row justify-content-center">
+                  <div class="col-md-10 justify-content-center d-flex">
+                    <button id="cancelarPedido" class="btn btn-danger me-2">Cancelar Pedido</button>
+                    <button id="cargarPedido" class="btn btn-success me-2">Cargar Pedido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modalNuevoCliente" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Nuevo Cliente</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="cerrarModal()">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form id="formularioCliente">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-6">
+                        <div class="nuevo-cliente mt-3">
+                          <div class="form-group">
+                            <label for="nombreCliente">Nombre</label>
+                            <input type="text" class="form-control" id="nombreCliente" placeholder="Ingrese Nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="apellidoCliente">Apellido</label>
+                            <input type="text" class="form-control" id="apellidoCliente" placeholder="Ingrese Apellido">
+                          </div>
+                          <div class="form-group">
+                            <label for="emailCliente">Email Address</label>
+                            <input type="email" class="form-control" id="emailCliente" placeholder="Ingrese Email">
+                          </div>
+                          <div class="form-group">
+                            <label for="ddlTipoDocumentos">Tipo Documento</label>
+                            <select class="form-select" id="ddlTipoDocumentos">
+           
+                            </select>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="documentoCliente">Documento</label>
+                            <input type="number" class="form-control" id="documentoCliente" placeholder="Ingrese Documento">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-6">
+                        <div class="nuevo-cliente">
+                          <div class="form-group mt-4 mb-4">
+                            <label for="ddlProvincias">Provincia</label>
+                            <select class="form-select" id="ddlProvincias">
+
+                            </select>
+                          </div>
+                          <div class="form-group mb-4">
+                            <label for="ddlCiudades">Ciudad</label>
+                            <select class="form-select" id="ddlCiudades">
+
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="ddlBarrios">Barrio</label>
+                            <select class="form-select" id="ddlBarrios">
+                              
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="direccionCliente">Dirección</label>
+                            <input type="text" class="form-control" id="direccionCliente" placeholder="Direccion del cliente">
+                          </div>
+                          <div class="form-group mb-4">
+                            <label for="alturaCliente">Altura</label>
+                            <input type="number" class="form-control" id="nroCalleCliente" placeholder="Altura de la calle (numeros)">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary ms-5 me-2" data-dismiss="modal" id="cerrarModal">Cerrar</button>
+                    <button type="button" class="btn btn-primary ms-1" id="guardarCambiosBtn">Guardar Cambios</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+          <nav class="pull-left">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright">
+            2024, Tienda Pc Adminstración
+          </div>
+          <div>
+            TPI PROG II
+            <a target="_blank" href="about.html">GRUPO 19</a>.
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+  </div>
+
+
+
+  <!-- End Custom template -->
+  <!-- Core JS Files  -->
+  <script>
+    function cerrarSesion() {
+      // Aquí puedes eliminar el token de autenticación o limpiar la sesión si es necesario
+      localStorage.removeItem("legajoEmp");
+
+      // Redirige a la página de inicio de sesión
+      window.location.href = "login.html";
+    }
+  </script>
+  <script src="nuevoPedido.js"></script>
+  <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+
+  <!--jQuery Scrollbar -->
+  <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+  <!-- Chart JS -->
+  <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+  <!--jQuery Sparkline -->
+  <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+  <!--Chart Circle -->
+  <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+  <!-- Datatables -->
+  <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+  <!-- Bootstrap Notify -->
+  <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+  <!-- jQuery Vector Maps -->
+  <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+  <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+  <!-- Kaiadmin JS -->
+  <script src="assets/js/kaiadmin.min.js"></script>
+</body>
+
+</html>

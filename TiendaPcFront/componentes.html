@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>TiendaPc Adminstración</title>
+  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+  <link rel="icon" href="assets/img/computer.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="component.css">
+
+  <!-- Fonts and icons -->
+  <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+  <script>
+    WebFont.load({
+      google: { families: ["Public Sans:300,400,500,600,700"] },
+      custom: {
+        families: [
+          "Font Awesome 5 Solid",
+          "Font Awesome 5 Regular",
+          "Font Awesome 5 Brands",
+          "simple-line-icons",
+        ],
+        urls: ["assets/css/fonts.min.css"],
+      },
+      active: function () {
+        sessionStorage.fonts = true;
+      },
+    });
+  </script>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins.min.css" />
+  <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link rel="stylesheet" href="assets/css/demo.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar" data-background-color="dark">
+      <div class="sidebar-logo">
+        <!-- Logo Header -->
+        <div class="logo-header" data-background-color="dark">
+          <a href="dashboard.html" class="logo">
+            <img src="assets/img/logo.png" alt="navbar brand" class="navbar-brand" height="60" />
+          </a>
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="gg-menu-right"></i>
+            </button>
+            <button class="btn btn-toggle sidenav-toggler">
+              <i class="gg-menu-left"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+      <div class="sidebar-wrapper scrollbar scrollbar-inner">
+        <div class="sidebar-content">
+          <ul class="nav nav-secondary">
+            <li class="nav-section">
+              <span class="sidebar-mini-icon">
+                <i class="fa fa-ellipsis-h"></i>
+              </span>
+              <h4 class="text-section">Adminstración</h4>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#base">
+                <i class="fas fa-layer-group"></i>
+                <p>Pedidos</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="base">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="dashboard.html">
+                      <span class="sub-item">Panel Principal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="pedidos.html">
+                      <span class="sub-item">Listado Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nuevoPedido.html">
+                      <span class="sub-item">Registrar Pedido</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                <i class="fas fa-th-list"></i>
+                <p>Componentes</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="sidebarLayouts">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="componentes.html">
+                      <span class="sub-item">Listado Componentes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#forms">
+                <i class="fas fa-pen-square"></i>
+                <p>Sesión</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="forms">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="miPerfil.html">
+                      <span class="sub-item">Mi Perfil</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" role="button" onclick="cerrarSesion()">
+                      <span class="sub-item">Cerrar Sesión</span>
+                      <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+    <div class="main-panel">
+      <div class="main-header">
+        <div class="main-header-logo">
+
+          <div class="logo-header" data-background-color="dark">
+            <a href="dashboard.html">
+              <img src="assets/img/logo.png" alt="logo-tienda-pc">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENIDO -->
+      <div class="container">
+        <div class="row mt-4 justify-content-center">
+          <div class="col-md-10 col-12">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">Componentes</div>
+              </div>
+              <div class="card-sub">
+                <button class="btn btn-secondary dropdown-toggle me-2" type="button" data-bs-toggle="dropdown">
+                  Tipos componentes
+                </button>
+                <ul class="dropdown-menu" role="menu" id="tipo-componente">
+                  <li>
+                    <a class="dropdown-item" href="#">TODOS</a>
+                  </li>
+                </ul>
+                <button class="btn btn-secondary dropdown-toggle me-2" type="button" data-bs-toggle="dropdown">
+                  Marcas
+                </button> 
+                <ul class="dropdown-menu" role="menu" id="marcas">
+                  <li>
+                    <a class="dropdown-item" href="#">TODAS</a>
+                  </li>
+                </ul>                
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                  Estado
+                </button>
+                <ul class="dropdown-menu" role="menu" id="estado">
+                  <li>
+                      <a class="dropdown-item" href="#" data-value="ACTIVO">ACTIVO</a>
+                      <a class="dropdown-item" href="#" data-value="INACTIVO">INACTIVO</a>
+                  </li>
+                </ul>              
+                <button id="cargarComponentesBtn" class="btn btn-secondary">Buscar</button>
+                <button type="button" id="abrirModalNuevoComponenteBtn" class="btn btn-success">Crear Nuevo Componente
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th class="idCompOculto">Id</th>
+                        <th>Componente</th>
+                        <th>Marca</th>
+                        <th>Tipo Componente</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Stock Minimo</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <!-- GENERADO DINAMICAMENTE -->
+                    </tbody>
+                  </table>
+    
+                </div>
+                <!-- Modal para editar componente -->
+                <div class="modal fade" id="modalEditarComponente" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Editar Componente</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="cerrarModal()">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form id="formEditarComponente">
+                          <input type="hidden" id="idComponente">
+    
+                          <div class="form-group">
+                            <label for="marca">Marca:</label>
+                            <select class="form-control" id="marca" required>
+                              <option value="">Seleccione una marca</option>
+                              <!-- Las opciones se llenarán dinámicamente -->
+                            </select>
+                          </div>
+    
+                          <div class="form-group">
+                            <label for="tipoComponente">Tipo de Componente:</label>
+                            <select class="form-control" id="tipoComponente" required>
+                              <option value="">Seleccione un tipo</option>
+                              <!-- Las opciones se llenarán dinámicamente -->
+                            </select>
+                          </div>
+    
+                          <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="precio">Precio:</label>
+                            <input type="number" class="form-control" id="precio" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="stock">Stock:</label>
+                            <input type="number" class="form-control" id="stock" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="stockMinimo">Stock Mínimo:</label>
+                            <input type="number" class="form-control" id="stockMinimo">
+                          </div>
+                          
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cerrarModal">Cerrar</button>
+                        <button type="button" class="btn btn-primary" id="guardarCambiosBtn">Guardar Cambios</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+          <nav class="pull-left">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright">
+            2024, Tienda Pc Adminstración
+          </div>
+          <div>
+            TPI PROG II
+            <a target="_blank" href="about.html">GRUPO 19</a>.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    function cerrarSesion() {
+      // Aquí puedes eliminar el token de autenticación o limpiar la sesión si es necesario
+      localStorage.removeItem("legajoEmp");
+
+      // Redirige a la página de inicio de sesión
+      window.location.href = "login.html";
+    }
+  </script>
+  <script src="componentes.js"></script>
+  <!-- End Custom template -->
+  <!-- Core JS Files  -->
+  <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+
+  <!--jQuery Scrollbar -->
+  <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+  <!-- Chart JS -->
+  <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+  <!--jQuery Sparkline -->
+  <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+  <!--Chart Circle -->
+  <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+  <!-- Datatables -->
+  <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+  <!-- Bootstrap Notify -->
+  <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+  <!-- jQuery Vector Maps -->
+  <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+  <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+  <!-- Kaiadmin JS -->
+  <script src="assets/js/kaiadmin.min.js"></script>
+
+
+</body>
+
+</html>

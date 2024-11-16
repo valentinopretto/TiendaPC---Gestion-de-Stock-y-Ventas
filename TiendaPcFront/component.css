@@ -1,0 +1,23 @@
+.idCompOculto{
+    display: none;
+}
+
+.card-header{
+    display: flex;
+    
+}
+
+#cargarComponentesBtn{
+    margin: 12px;
+}
+
+
+/* Estilos para el modal */
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+
+    
+}
+
+

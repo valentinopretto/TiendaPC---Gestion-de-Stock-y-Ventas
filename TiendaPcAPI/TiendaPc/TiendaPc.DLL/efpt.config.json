@@ -1,0 +1,126 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "DB_TIENDA_PCContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "TiendaPc.DLL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[BARRIOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CATEGORIAS_FISCAL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CIUDADES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLIENTES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Componentes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CONTACTOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DETALLES_PEDIDOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EMPLEADOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ESPECIFICACIONES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Especificaciones_Componentes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FORMAS_ENTREGA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FORMAS_PAGO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Marcas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PEDIDOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PEDIDOS_FORMAS_PAGO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PROVINCIAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ROLES_EMPLEADO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tipos_Componentes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_COMPONENTES_ESPECIFICACIONES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_CONTACTOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_DOCUMENTOS]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

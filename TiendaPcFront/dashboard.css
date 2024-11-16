@@ -1,0 +1,315 @@
+/* Sobrescribir los estilos de Bootstrap */
+.container-marcas table.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-marcas th, 
+.container-marcas td {
+    text-align: center !important;
+    padding: 12px !important;
+    border: 1px solid #ddd !important;
+    vertical-align: middle !important;
+}
+
+.container-marcas th {
+    background-color: #f2f2f2 !important;
+    font-weight: bold !important;
+}
+
+.container-marcas tr:first-child th:first-child {
+    border-top-left-radius: 8px !important;
+}
+
+.container-marcas tr:first-child th:last-child {
+    border-top-right-radius: 8px !important;
+}
+
+.container-marcas tr:last-child td:first-child {
+    border-bottom-left-radius: 8px !important;
+}
+
+.container-marcas tr:last-child td:last-child {
+    border-bottom-right-radius: 8px !important;
+}
+
+.container-marcas tbody tr:hover {
+    background-color: #f9f9f9 !important;
+}
+.container-marcas {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+.titulo-estadisticas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#selectOptionss {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#selectTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#endpointSelect {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#selectTitle {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #34495e;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título de la tabla */
+#tableTitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;  /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    background: linear-gradient(135deg, #630fd1, #8652ca); /* Degradado de color */
+    -webkit-background-clip: text; /* Solo afecta al texto */
+    color: transparent; /* Color de fondo transparente para mostrar el degradado */
+    padding: 10px 0; /* Espacio alrededor del texto */
+}
+
+
+#facturacionChart {
+    max-width: 800px;  /* Ancho máximo */
+    width: 100%;       /* El gráfico ocupará todo el espacio disponible hasta el max-width */
+    height: 350px;     /* Alto fijo */
+    margin: 0 auto;    /* Centrado horizontal */
+    border-radius: 10px;  /* Bordes redondeados del gráfico */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra para dar profundidad */
+    background-color: #ffffff; /* Fondo blanco para el contenedor del gráfico */
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 800px; /* Limita el tamaño máximo */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .chart-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  canvas {
+    width: 100% !important; /* Hace que el canvas sea responsive */
+    height: 300px !important; /* Ajusta la altura para que no sea tan grande */
+  }
+  
+  /* Estilos para el contenedor del gráfico */
+#facturacionChart {
+    width: 100%;
+    height: 400px;  /* Ajusta la altura como desees */
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
+
+/* Estilos para el select de año */
+#yearSelect {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 20px;  /* Espacio entre el select y el gráfico */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
+
+/* Estilos para el contenedor del selector de año y el título */
+.select-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Estilo del título "Selecciona el Año" */
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Estilos para la leyenda del gráfico */
+.chart-legend {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilos para la barra de progreso del gráfico (opcional) */
+.chart-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f7f7f7;  /* Fondo suave */
+}
+
+/* Responsive: Ajustar el gráfico en pantallas pequeñas */
+@media (max-width: 768px) {
+    #facturacionChart {
+        height: 300px;  /* Menor altura en pantallas pequeñas */
+    }
+
+    #yearSelect {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+}
+
+
+/* Contenedor para el selector de año */
+.select-container {
+    margin-bottom: 20px; /* Espacio debajo del selector */
+    text-align: center;
+}
+
+/* Etiqueta del selector de año */
+.select-container label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilo del select */
+.select-container select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Estilo para el contenedor del gráfico */
+.chart-container {
+    width: 80%;
+    max-width: 800px; /* Establece un máximo para el ancho */
+    height: 400px; /* Ajusta la altura del gráfico */
+    margin-top: 20px;
+}
+
+/* Canvas dentro del contenedor de gráfico */
+#facturacionChart {
+    width: 100% !important; /* Asegura que el canvas ocupe todo el espacio */
+    height: 100% !important; /* Asegura que el canvas tenga la altura definida */
+}
+
+/* Estilos generales para mejorar la apariencia */
+* {
+    box-sizing: border-box;
+}
+/* Contenedor para el selector de año */
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio debajo del selector */
+}
+
+/* Etiqueta del selector de año */
+.select-container label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilo del select */
+.select-container select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Contenedor del gráfico */
+.chart-container {
+    width: 80%;
+    max-width: 800px; /* Establece un máximo para el ancho */
+    height: 400px; /* Ajusta la altura del gráfico */
+    margin-top: 25px;
+}
+
+/* Canvas dentro del contenedor de gráfico */
+#facturacionChart {
+    width: 100% !important; /* Asegura que el canvas ocupe todo el espacio */
+    height: 100% !important; /* Asegura que el canvas tenga la altura definida */
+}
+
+/* Estilos generales para mejorar la apariencia */
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+  .table {
+    margin-top: 0;
+  }
+  
+.row {
+    display: flex;
+}
+
+.row, .container {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.container-marcas {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.card-container, .container-marcas, .card, .table {
+    margin: 0 !important;
+    padding: 0 !important;
+}

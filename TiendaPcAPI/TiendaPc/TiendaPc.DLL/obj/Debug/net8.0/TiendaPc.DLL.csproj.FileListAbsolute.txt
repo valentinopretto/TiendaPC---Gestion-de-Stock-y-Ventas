@@ -1,0 +1,50 @@
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.AssemblyReference.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfoInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfo.cs
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.sourcelink.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.deps.json
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\refint\TiendaPc.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\tobia\Desktop\TUP\Repos\TPI\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\ref\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.deps.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.sourcelink.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\refint\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\TPI\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\ref\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.deps.json
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\refint\TiendaPc.DLL.dll
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Pertu\Desktop\TPI ENTREGA FINAL\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\ref\TiendaPc.DLL.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.deps.json
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.AssemblyReference.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfoInputs.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfo.cs
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.CoreCompileInputs.cache
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\refint\TiendaPc.DLL.dll
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\ref\TiendaPc.DLL.dll

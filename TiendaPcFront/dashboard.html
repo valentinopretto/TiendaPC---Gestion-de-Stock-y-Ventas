@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>TiendaPc Adminstración</title>
+  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+  <link rel="icon" href="assets/img/computer.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="dashboard.css">
+
+  <!-- Fonts and icons -->
+  <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+  <script>
+    WebFont.load({
+      google: { families: ["Public Sans:300,400,500,600,700"] },
+      custom: {
+        families: [
+          "Font Awesome 5 Solid",
+          "Font Awesome 5 Regular",
+          "Font Awesome 5 Brands",
+          "simple-line-icons",
+        ],
+        urls: ["assets/css/fonts.min.css"],
+      },
+      active: function () {
+        sessionStorage.fonts = true;
+      },
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Incluir Chart.js -->
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins.min.css" />
+  <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link rel="stylesheet" href="assets/css/demo.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar" data-background-color="dark">
+      <div class="sidebar-logo">
+        <!-- Logo Header -->
+        <div class="logo-header" data-background-color="dark">
+          <a href="dashboard.html" class="logo">
+            <img src="assets/img/logo.png" alt="navbar brand" class="navbar-brand" height="60" />
+          </a>
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="gg-menu-right"></i>
+            </button>
+            <button class="btn btn-toggle sidenav-toggler">
+              <i class="gg-menu-left"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+      <div class="sidebar-wrapper scrollbar scrollbar-inner">
+        <div class="sidebar-content">
+          <ul class="nav nav-secondary">
+            <li class="nav-section">
+              <span class="sidebar-mini-icon">
+                <i class="fa fa-ellipsis-h"></i>
+              </span>
+              <h4 class="text-section">Adminstración</h4>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#base">
+                <i class="fas fa-layer-group"></i>
+                <p>Pedidos</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="base">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="dashboard.html">
+                      <span class="sub-item">Panel Principal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="pedidos.html">
+                      <span class="sub-item">Listado Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nuevoPedido.html">
+                      <span class="sub-item">Registrar Pedido</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                <i class="fas fa-th-list"></i>
+                <p>Componentes</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="sidebarLayouts">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="componentes.html">
+                      <span class="sub-item">Listado Componentes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#forms">
+                <i class="fas fa-pen-square"></i>
+                <p>Sesión</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="forms">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="miPerfil.html">
+                      <span class="sub-item">Mi Perfil</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" role="button" onclick="cerrarSesion()">
+                      <span class="sub-item">Cerrar Sesión</span>
+                      <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+    <div class="main-panel">
+      <div class="main-header">
+        <div class="main-header-logo">
+          <div class="logo-header" data-background-color="dark">
+            <a href="dashboard.html">
+              <img src="assets/img/logo.png" alt="logo-tienda-pc">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div class="container">
+        <div class="text-center pb-4 mt-4">
+          <h2>PANEL PRINCIPAL</h2>
+        </div>
+        <div class="row justify-content-center g-0">
+          <!-- Card 1 -->
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="card card-stats card-round">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-icon">
+                    <div class="icon-big text-center icon-primary bubble-shadow-small">
+                      <i class="fas fa-users"></i>
+                    </div>
+                  </div>
+                  <div class="col col-stats ms-3 ms-sm-0">
+                    <div class="numbers">
+                      <p class="card-category">Clientes</p>
+                      <h4 id="cantClientes" class="card-title">1,294</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="card card-stats card-round">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-icon">
+                    <div class="icon-big text-center icon-success bubble-shadow-small">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                  </div>
+                  <div class="col col-stats ms-3 ms-sm-0">
+                    <div class="numbers">
+                      <p class="card-category">Ventas del Mes</p>
+                      <h4 id="ventasMes" class="card-title">$ 1,200,000</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="card card-stats card-round">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-icon">
+                    <div class="icon-big text-center icon-secondary bubble-shadow-small">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                  </div>
+                  <div class="col col-stats ms-3 ms-sm-0">
+                    <div class="numbers">
+                      <p class="card-category">Pedidos en el Mes Actual</p>
+                      <h4 id="nroPedidos-card">576</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Aca seleccionamos que endpoint consumir para traer distintos datos -->
+        <div class="container-marcas">
+          <div class="row justify-content-between">
+            <div class="col-md-6">
+                <h5 id="tableTitle">Marcas más Compradas</h5>
+            </div>
+            <div class="col-md-6">
+              <div id="selectOptionss">
+                <div>
+                  <select id="endpointSelect" class="form-control" aria-placeholder="Selecione una opción">
+                    <option value="GetEstadisticasMarcas">Estadísticas de Marcas</option>
+                    <option value="GetInformeTipoComponentes">Estadísticas de los tipos de Componentes</option>
+                    <option value="GetVentasComponentes">Ventas de Componentes</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="table-responsive">
+          <table id="tabla-estadisticas" class="table table-striped">
+            <thead>
+              <tr>
+                <th id="colMarca">Marca</th>
+                <th id="colTotalVentas">Total Ventas</th>
+                <th id="colImporteTotal">Importe Total</th>
+                <th id="colPromedioVenta">Promedio Venta</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Aquí se cargarán los datos -->
+            </tbody>
+          </table>
+          </div>
+        </div>
+        <!-- Contenedor para el selector de año -->
+        <div class="select-container">
+          <label for="yearSelect">Selecciona el Año:</label>
+          <select id="yearSelect">
+            <option value="">Todos los Años</option>
+          </select>
+        </div>
+
+        <!-- Contenedor del gráfico -->
+        <div class="chart-container mb-3">
+          <canvas id="facturacionChart"></canvas>
+        </div>
+      </div>
+        <footer class="footer">
+          <div class="container-fluid d-flex justify-content-between">
+            <nav class="pull-left">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="copyright">
+              2024, Tienda Pc Adminstración
+            </div>
+            <div>
+              TPI PROG II
+              <a target="_blank" href="about.html">GRUPO 19</a>.
+            </div>
+          </div>
+        </footer>
+    </div>
+    <script>
+      function cerrarSesion() {
+        // Aquí puedes eliminar el token de autenticación o limpiar la sesión si es necesario
+        localStorage.removeItem("legajoEmp");
+  
+        // Redirige a la página de inicio de sesión
+        window.location.href = "login.html";
+      }
+    </script>
+    <script src="dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- End Custom template -->
+    <!-- Core JS Files  -->
+    <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+
+    <!--jQuery Scrollbar -->
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+    <!--jQuery Sparkline -->
+    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+    <!--Chart Circle -->
+    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="assets/js/kaiadmin.min.js"></script>
+</body>
+
+</html>

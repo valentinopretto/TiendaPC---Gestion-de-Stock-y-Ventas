@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>TiendaPc Adminstración</title>
+  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+  <link rel="icon" href="assets/img/computer.ico" type="image/x-icon" />
+
+  <!-- Fonts and icons -->
+  <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+  <script>
+    WebFont.load({
+      google: { families: ["Public Sans:300,400,500,600,700"] },
+      custom: {
+        families: [
+          "Font Awesome 5 Solid",
+          "Font Awesome 5 Regular",
+          "Font Awesome 5 Brands",
+          "simple-line-icons",
+        ],
+        urls: ["assets/css/fonts.min.css"],
+      },
+      active: function () {
+        sessionStorage.fonts = true;
+      },
+    });
+  </script>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins.min.css" />
+  <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link rel="stylesheet" href="assets/css/demo.css" />
+  <style>
+    /* Styling for the Team Section */
+    .card {
+      border: none;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .card-img-top {
+      border-bottom: 3px solid #1a2a6c;
+    }
+
+    .card-body {
+      padding-top: 15px;
+    }
+
+    .text-primary {
+      color: #1a2a6c !important;
+    }
+
+    .social-link {
+      color: #1a2a6c;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-link:hover {
+      color: #e1306c;
+      /* Instagram color */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar" data-background-color="dark">
+      <div class="sidebar-logo">
+        <!-- Logo Header -->
+        <div class="logo-header" data-background-color="dark">
+          <a href="dashboard.html" class="logo">
+            <img src="assets/img/logo.png" alt="navbar brand" class="navbar-brand" height="60" />
+          </a>
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="gg-menu-right"></i>
+            </button>
+            <button class="btn btn-toggle sidenav-toggler">
+              <i class="gg-menu-left"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+      <div class="sidebar-wrapper scrollbar scrollbar-inner">
+        <div class="sidebar-content">
+          <ul class="nav nav-secondary">
+            <li class="nav-section">
+              <span class="sidebar-mini-icon">
+                <i class="fa fa-ellipsis-h"></i>
+              </span>
+              <h4 class="text-section">Adminstración</h4>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#base">
+                <i class="fas fa-layer-group"></i>
+                <p>Pedidos</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="base">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="dashboard.html">
+                      <span class="sub-item">Panel Principal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="pedidos.html">
+                      <span class="sub-item">Listado Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nuevoPedido.html">
+                      <span class="sub-item">Registrar Pedido</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                <i class="fas fa-th-list"></i>
+                <p>Componentes</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="sidebarLayouts">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="componentes.html">
+                      <span class="sub-item">Listado Componentes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#forms">
+                <i class="fas fa-pen-square"></i>
+                <p>Sesión</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="forms">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="miPerfil.html">
+                      <span class="sub-item">Mi Perfil</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" role="button" onclick="cerrarSesion()">
+                      <span class="sub-item">Cerrar Sesión</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+    <div class="main-panel">
+      <div class="main-header">
+        <div class="main-header-logo">
+
+          <div class="logo-header" data-background-color="dark">
+            <a href="dashboard.html">
+              <img src="assets/img/logo.png" alt="logo-tienda-pc">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENIDO -->
+      <div class="container">
+
+
+        <section class="container my-5">
+          <div class="text-center mb-4">
+            <h5 class="text-primary">GRUPO 19</h5>
+            <h2><strong>INTEGRANTES DEL GRUPO</strong></h2>
+          </div>
+          <div class="row justify-content-center">
+            <!-- Team Member 1 -->
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="assets/img/siaga.png" class="card-img-top" alt="Walter White">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary">Valentino Pretto</h5>
+                  <p class="card-text text-muted">Integrante</p>
+                  <p>412618</p>
+                  <a href="https://www.instagram.com/valennpretto_1312/" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="assets/img/pertuuu.png" class="card-img-top" alt="Sarah Jhonson">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary">Tobias Pertusati</h5>
+                  <p class="card-text text-muted">Integrante</p>
+                  <p>412301</p>
+                  <a href="https://www.instagram.com/tobiaspertu/" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="assets/img/josiass.png" class="card-img-top" alt="William Anderson">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary">Josias Peralta</h5>
+                  <p class="card-text text-muted">Integrante</p>
+                  <p>412469</p>
+                  <a href="https://www.instagram.com/josiasperalta_/" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="assets/img/joel.png" class="card-img-top" alt="Sarah Jhonson">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary">Joel Actis</h5>
+                  <p class="card-text text-muted">Integrante</p>
+                  <p>412083</p>
+                  <a href="https://www.instagram.com/j.oel0303456/" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      </div>
+
+      <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+          <nav class="pull-left">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> About </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright">
+            2024, Tienda Pc Adminstración
+          </div>
+          <div>
+            TPI PROG II
+            <a target="_blank" href="https://themewagon.com/">GRUPO 19</a>.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+
+  <!-- End Custom template -->
+  <!-- Core JS Files  -->
+  <script>
+    function cerrarSesion() {
+      // Aquí puedes eliminar el token de autenticación o limpiar la sesión si es necesario
+      localStorage.removeItem("legajoEmp");
+
+      // Redirige a la página de inicio de sesión
+      window.location.href = "login.html";
+    }
+  </script>
+  <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!--jQuery Scrollbar -->
+  <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+  <!-- Chart JS -->
+  <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+  <!--jQuery Sparkline -->
+  <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+  <!--Chart Circle -->
+  <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+  <!-- Datatables -->
+  <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+  <!-- Bootstrap Notify -->
+  <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+  <!-- jQuery Vector Maps -->
+  <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+  <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+  <!-- Kaiadmin JS -->
+  <script src="assets/js/kaiadmin.min.js"></script>
+</body>
+
+</html>
