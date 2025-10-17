@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\",
+  "WorkspaceRootPath": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|c:\\users\\josia\\onedrive\\escritorio\\tpi-progii-pertu\\tiendapcapi\\tiendapc\\tiendapc.dll\\data\\repository\\barriorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|solutionrelative:tiendapc.dll\\data\\repository\\barriorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\josia\\onedrive\\escritorio\\tpi-progii-pertu\\tiendapcapi\\tiendapc\\tiendapc.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|solutionrelative:tiendapc.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\josia\\onedrive\\escritorio\\tpi-progii-pertu\\tiendapcapi\\tiendapc\\tiendapc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|solutionrelative:tiendapc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\josia\\onedrive\\escritorio\\tpi-progii-pertu\\tiendapcapi\\tiendapc\\tiendapc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|solutionrelative:tiendapc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|c:\\users\\josia\\onedrive\\escritorio\\tpi-progii-pertu\\tiendapcapi\\tiendapc\\tiendapc.dll\\models\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|solutionrelative:tiendapc.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.dll\\data\\repository\\barriorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|solutionrelative:tiendapc.dll\\data\\repository\\barriorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|solutionrelative:tiendapc.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.dll\\models\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5AE461-9E7B-4E8B-A344-10AEFC61AFF9}|TiendaPc.DLL\\TiendaPc.DLL.csproj|solutionrelative:tiendapc.dll\\models\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\josia\\onedrive\\escritorio\\tpi-progii-pertu\\tiendapcapi\\tiendapc\\tiendapc.api\\controllers\\componentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|c:\\users\\siaga\\onedrive\\desktop\\proyectos tup\\tienda_pc_web\\tiendapcapi\\tiendapc\\tiendapc.api\\controllers\\componentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B3E6512-CA2A-4D45-8DF4-CB0D2DED26EA}|TiendaPc.API\\TiendaPc.API.csproj|solutionrelative:tiendapc.api\\controllers\\componentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -37,86 +41,95 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "TiendaPc.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "TiendaPc.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T21:19:41.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BarrioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Data\\Repository\\BarrioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Data\\Repository\\BarrioRepository.cs",
               "RelativeDocumentMoniker": "TiendaPc.DLL\\Data\\Repository\\BarrioRepository.cs",
-              "ToolTip": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Data\\Repository\\BarrioRepository.cs",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Data\\Repository\\BarrioRepository.cs",
               "RelativeToolTip": "TiendaPc.DLL\\Data\\Repository\\BarrioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAhAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T22:26:23.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\appsettings.json",
               "RelativeDocumentMoniker": "TiendaPc.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\appsettings.json",
               "RelativeToolTip": "TiendaPc.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T22:03:43.516Z"
+              "WhenOpened": "2024-11-09T22:03:43.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ComponenteController.cs",
-              "DocumentMoniker": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\ComponenteController.cs",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\ComponenteController.cs",
               "RelativeDocumentMoniker": "TiendaPc.API\\Controllers\\ComponenteController.cs",
-              "ToolTip": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\ComponenteController.cs",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\ComponenteController.cs",
               "RelativeToolTip": "TiendaPc.API\\Controllers\\ComponenteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:45:54.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Program.cs",
-              "RelativeDocumentMoniker": "TiendaPc.API\\Program.cs",
-              "ToolTip": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Program.cs",
-              "RelativeToolTip": "TiendaPc.API\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAEgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T20:27:45.318Z"
+              "WhenOpened": "2024-11-08T22:45:54.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Program.cs",
+              "RelativeDocumentMoniker": "TiendaPc.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Program.cs",
+              "RelativeToolTip": "TiendaPc.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T20:27:45.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "TiendaPc.API\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.API\\Controllers\\EmpleadoController.cs",
               "RelativeToolTip": "TiendaPc.API\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCsAAABBAAAA",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T20:24:32.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmpleadoDto.cs",
-              "DocumentMoniker": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Models\\DTO\\EmpleadoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Models\\DTO\\EmpleadoDto.cs",
               "RelativeDocumentMoniker": "TiendaPc.DLL\\Models\\DTO\\EmpleadoDto.cs",
-              "ToolTip": "C:\\Users\\josia\\OneDrive\\Escritorio\\TPI-PROGII-pertu\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Models\\DTO\\EmpleadoDto.cs",
+              "ToolTip": "C:\\Users\\Siaga\\OneDrive\\Desktop\\Proyectos TUP\\TIENDA_PC_WEB\\TiendaPcAPI\\TiendaPc\\TiendaPc.DLL\\Models\\DTO\\EmpleadoDto.cs",
               "RelativeToolTip": "TiendaPc.DLL\\Models\\DTO\\EmpleadoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T20:25:13.13Z"
+              "WhenOpened": "2024-11-08T20:25:13.13Z",
+              "EditorCaption": ""
             }
           ]
         }

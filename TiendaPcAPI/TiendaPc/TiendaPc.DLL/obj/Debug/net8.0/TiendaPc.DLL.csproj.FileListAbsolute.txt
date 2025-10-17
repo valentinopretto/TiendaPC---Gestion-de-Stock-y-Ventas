@@ -48,3 +48,16 @@ C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaP
 C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\refint\TiendaPc.DLL.dll
 C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.pdb
 C:\Users\josia\OneDrive\Escritorio\TPI-PROGII-pertu\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\ref\TiendaPc.DLL.dll
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.deps.json
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\bin\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.AssemblyReference.cache
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfoInputs.cache
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.AssemblyInfo.cs
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.csproj.CoreCompileInputs.cache
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.sourcelink.json
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.dll
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\refint\TiendaPc.DLL.dll
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\TiendaPc.DLL.pdb
+C:\Users\Siaga\OneDrive\Desktop\Proyectos TUP\TIENDA_PC_WEB\TiendaPcAPI\TiendaPc\TiendaPc.DLL\obj\Debug\net8.0\ref\TiendaPc.DLL.dll

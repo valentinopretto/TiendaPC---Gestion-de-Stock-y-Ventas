@@ -2012,7 +2012,7 @@ update CLIENTES set email = 'paula.benitez@gmail.com' where id_cliente = 10
 
 
 
--TRIGGER PARA controlar y actualizar Stock-------------------------------
+--TRIGGER PARA controlar y actualizar Stock-------------------------------
 --CREATE TRIGGER dis_updStock
 --ON DETALLES_PEDIDOS
 --AFTER Insert

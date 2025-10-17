@@ -66,7 +66,7 @@ async function cargarEstadisticas() {
     //segun lo que traiga el endpoint modificar la estructura
     switch(endpoint){
         case 'GetEstadisticasMarcas':
-            tableTitle.textContent = "Marcas más Compradas";
+            tableTitle.textContent = "Marcas mas Compradas";
             colMarca.textContent = "Marca";
             colTotalVentas.textContent = "Total Ventas";
             colImporteTotal.textContent = "Importe Total";
@@ -74,7 +74,7 @@ async function cargarEstadisticas() {
             break;
 
         case 'GetInformeTipoComponentes':
-            tableTitle.textContent = "Tipos de Componentes Más Comprados";
+            tableTitle.textContent = "Tipos de Componentes Mas Comprados";
             colMarca.textContent = "Tipo de Componente";
             colTotalVentas.textContent = "Cantidad de Ventas";
             colImporteTotal.textContent = "Importe Total";
