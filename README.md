@@ -119,10 +119,11 @@ La aplicación estará disponible en `https://localhost:7119`
 - [ ] Integración con proveedores
 
 ## 👨‍💻 Autores
+
 -Valentino Pretto
--Josias Peralta**
--Tobias Pertusatti**
--Joel Actis**
+-Josias Peralta
+-Tobias Pertusatti
+-Joel Actis
 
 - GitHub: [@valentinopretto](https://github.com/valentinopretto)
 - Portfolio: [valentinopretto.github.io/Portafolio](https://valentinopretto.github.io/Portafolio/)
